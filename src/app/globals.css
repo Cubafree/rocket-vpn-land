@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg:      #F6F1E7;
+  --bg-2:    #EFE7D5;
+  --ink:     #0E1B2C;
+  --ink-2:   #2A3A50;
+  --muted:   #6A7689;
+  --line:    #E0D6C0;
+  --card:    #FFFCF5;
+  --accent:  #FF5A1F;
+  --accent-2:#FFD43B;
+  --sky:     #3D7EFF;
+  --good:    #1F8A5B;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-body), system-ui, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+.display {
+  font-family: var(--font-display), sans-serif;
+  letter-spacing: -0.02em;
+  line-height: 0.95;
+}
+
+.mono {
+  font-family: var(--font-mono), monospace;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-family: inherit;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.4; }
+}
+
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
