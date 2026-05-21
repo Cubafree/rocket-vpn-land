@@ -371,9 +371,9 @@ function Hero({ onTrial }: { onTrial: () => void }) {
             style={{ fontSize: 'clamp(44px, 6vw, 84px)', margin: 0, fontWeight: 700 }}
           >
             {HEADLINE.split(' ').map((w, i) =>
-              w === '100' ? (
+              w === '99' ? (
                 <span key={i} style={{ color: 'var(--accent)' }}>
-                  100{' '}
+                  99{' '}
                 </span>
               ) : (
                 w + ' '
@@ -381,7 +381,7 @@ function Hero({ onTrial }: { onTrial: () => void }) {
             )}
           </h1>
           <p style={{ fontSize: 20, color: 'var(--ink-2)', maxWidth: 520, marginTop: 20, lineHeight: 1.5 }}>
-            Простой VPN с обходом блокировок. Заходите в любимые соцсети, смотрите видео, играете — как до 2022.
+            Простой VPN с обходом блокировок. Заходите в любимые соцсети, смотрите видео — без ограничений.
           </p>
           <div style={{ display: 'flex', gap: 12, marginTop: 32, flexWrap: 'wrap' }}>
             <PillBtn kind="primary" big onClick={onTrial}>
@@ -448,7 +448,7 @@ function TrustMarquee() {
 /* ─── Features ────────────────────────────────────────────── */
 function Features() {
   const feats = [
-    { icon: '⚡', t: 'Низкий пинг', d: 'Серверы рядом с Россией. В играх — как дома.' },
+    { icon: '⚡', t: 'Низкий пинг', d: 'Серверы рядом с Россией. Стабильное соединение без задержек.' },
     { icon: '∞', t: 'Безлимит', d: 'Качайте, стримьте, играйте — без ограничений по трафику.' },
     { icon: '🛡️', t: 'Без логов', d: 'Мы не храним вашу историю. Никто не узнает что вы смотрите.' },
     { icon: '🔓', t: 'Обход блокировок', d: 'Технология VLESS+Reality. Невидимый трафик.' },
@@ -526,7 +526,7 @@ function HowItWorks({ onTrial }: { onTrial: () => void }) {
           Запустить за 60 секунд
         </h2>
         <p style={{ color: 'rgba(255,255,255,.6)', fontSize: 18, maxWidth: 560, margin: '0 auto' }}>
-          Если мама не разберётся за минуту — деньги вернём. (Спойлер: разбирается всегда.)
+          Без регистраций, паролей и технических знаний. Просто откройте и подключите.
         </p>
       </div>
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3,1fr)', gap: 24 }}>
