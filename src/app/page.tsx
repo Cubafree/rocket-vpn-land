@@ -183,7 +183,7 @@ function Nav({ onTrial }: { onTrial: () => void }) {
           <a href="#faq">FAQ</a>
         </nav>
         <div style={{ display: 'flex', gap: 10 }}>
-          <PillBtn kind="soft" href="https://t.me" target="_blank">
+          <PillBtn kind="soft" href="https://cabinet.rocketjump.icu/" target="_blank">
             Войти
           </PillBtn>
           <PillBtn kind="primary" onClick={onTrial}>
@@ -387,7 +387,7 @@ function Hero({ onTrial }: { onTrial: () => void }) {
             <PillBtn kind="primary" big onClick={onTrial}>
               <span>🚀</span> Попробовать 3 дня бесплатно
             </PillBtn>
-            <PillBtn kind="ghost" big href="https://t.me" target="_blank">
+            <PillBtn kind="ghost" big href="https://t.me/RocketJump_VPN_bot" target="_blank">
               <TgIcon /> Подключить в Telegram
             </PillBtn>
           </div>
@@ -1099,7 +1099,7 @@ function FAQSection() {
           </h2>
           <p style={{ color: 'var(--ink-2)', fontSize: 16, lineHeight: 1.6 }}>
             Не нашли ответа? Напишите в{' '}
-            <a href="https://t.me" style={{ color: 'var(--accent)', fontWeight: 600 }}>
+            <a href="https://t.me/RocketJump_VPN_bot" target="_blank" style={{ color: 'var(--accent)', fontWeight: 600 }}>
               Telegram-поддержку
             </a>{' '}
             — отвечаем за 5 минут в любое время.
@@ -1185,7 +1185,7 @@ function FinalCTA({ onTrial }: { onTrial: () => void }) {
             <PillBtn kind="primary" big onClick={onTrial}>
               🚀 Начать триал
             </PillBtn>
-            <PillBtn kind="ghost" big href="https://t.me" target="_blank" style={{ borderColor: '#fff', color: '#fff' }}>
+            <PillBtn kind="ghost" big href="https://t.me/RocketJump_VPN_bot" target="_blank" style={{ borderColor: '#fff', color: '#fff' }}>
               <TgIcon /> Telegram-бот
             </PillBtn>
           </div>
@@ -1231,8 +1231,8 @@ function Footer() {
         </div>
         <div style={{ fontSize: 14 }}>
           © 2026 RocketJump · Поддержка:{' '}
-          <a href="https://t.me" style={{ color: 'var(--accent-2)' }}>
-            @rocketjump_help
+          <a href="https://t.me/RocketJump_VPN_bot" target="_blank" style={{ color: 'var(--accent-2)' }}>
+            @RocketJump_VPN_bot
           </a>
         </div>
         <div style={{ display: 'flex', gap: 18, fontSize: 14 }}>
@@ -1358,8 +1358,8 @@ function TrialModal({ open, onClose }: { open: boolean; onClose: () => void }) {
                 отсканируйте QR-код
               </div>
             </div>
-            <PillBtn kind="dark" big style={{ width: '100%', justifyContent: 'center' }} href="https://t.me" target="_blank">
-              <TgIcon /> Открыть @rocketjumpvpn_bot
+            <PillBtn kind="dark" big style={{ width: '100%', justifyContent: 'center' }} href="https://t.me/RocketJump_VPN_bot" target="_blank">
+              <TgIcon /> Открыть @RocketJump_VPN_bot
             </PillBtn>
           </div>
         )}
